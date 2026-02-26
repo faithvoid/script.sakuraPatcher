@@ -1,0 +1,15 @@
+  <addon id="script.sakuraPatcher" name="sakuraPatcher" version="1.0.0" provider-name="faithvoid">
+  <requires>
+    <import addon="xbmc.python" version="2.7.18"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+    <summary lang="en_GB">Patch XBE soundtrack/save data/DLC locations, install IPS/JMP/PF patches, and more!</summary>
+    <description lang="en_GB">Patch XBE soundtrack/save data/DLC locations, install IPS/JMP/PF patches, and more!</description>
+    <platform>xbox</platform>
+    <license>GPL-2.0-or-later</license>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+</addon>
